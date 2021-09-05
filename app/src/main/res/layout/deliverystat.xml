@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_time2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="440dp"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/su_textView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_refresh2"
+        android:layout_width="93dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="352dp"
+        android:text="새로고침"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/su_textView3"
+        android:layout_width="398dp"
+        android:layout_height="387dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:background="#2ECCFA"
+        android:text="배송정보"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_recive"
+        android:layout_width="243dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/nanumb"
+        android:gravity="center_horizontal"
+        android:hint="수령인 이름"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_su_thingsName"
+        android:layout_width="243dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/nanumb"
+        android:gravity="center_horizontal"
+        android:hint="물품 이름"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_recive" />
+
+    <TextView
+        android:id="@+id/tv_su_destination"
+        android:layout_width="243dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/nanumb"
+        android:gravity="center_horizontal"
+        android:hint="목적지"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_su_thingsName" />
+
+
+    <TextView
+        android:id="@+id/su_textView8"
+        android:layout_width="398dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="260dp"
+        android:background="#0080FF"
+        android:text="보내는 이"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/su_imageView"
+        android:layout_width="62dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/find"
+        app:layout_constraintEnd_toStartOf="@+id/tv_recive"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_su_sender"
+        android:layout_width="243dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+
+        android:background="#FFFFFF"
+        android:fontFamily="@font/nanumb"
+        android:gravity="center_horizontal"
+        android:hint="발송인 이름"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_su_destination" />
+
+    <ImageView
+        android:id="@+id/su_imageView2"
+        android:layout_width="62dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/things_name"
+        app:layout_constraintEnd_toStartOf="@+id/tv_su_thingsName"
+        app:layout_constraintStart_toStartOf="@+id/su_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/su_imageView" />
+
+    <ImageView
+        android:id="@+id/su_imageView6"
+        android:layout_width="62dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/end"
+        app:layout_constraintEnd_toStartOf="@+id/tv_su_destination"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/su_imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/su_imageView2" />
+
+    <ImageView
+        android:id="@+id/su_imageView7"
+        android:layout_width="62dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/bal_name"
+        app:layout_constraintEnd_toStartOf="@+id/tv_su_sender"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/su_imageView6" />
+
+    <ImageView
+        android:id="@+id/iv_su_goto"
+        android:layout_width="397dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/baesong"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/su_textView3"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <Button
+        android:id="@+id/btn_final2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="배송완료처리"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/su_textView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/su_textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="배송 예정 시간"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/su_textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="배송현황"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/su_textView8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

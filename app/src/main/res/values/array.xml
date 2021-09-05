@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="go">
+        <item>910호</item>
+        <item>911호</item>
+        <item>912호</item>
+        <item>913호</item>
+        <item>914호</item>
+    </string-array>
+    <string-array name="cartID">
+        <item>one_cart</item>
+        <item>two_crat(점검 중)</item>
+        <item>three_cart(점검 중)</item>
+    </string-array>
+
+
+
+
+</resources>
