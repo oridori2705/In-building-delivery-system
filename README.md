@@ -48,6 +48,9 @@ In-building delivery system
 ![13](https://user-images.githubusercontent.com/90139306/217248642-55645856-632e-4475-811d-d89c5dd39336.JPG)
 
 
+---
+
+
 # Interrupt situation
 
 ![a](https://user-images.githubusercontent.com/90139306/217253475-1d241a49-5c8f-45ee-adcc-4443073a4be7.JPG)
@@ -67,6 +70,8 @@ In-building delivery system
 
 ![f](https://user-images.githubusercontent.com/90139306/217253497-4ba153be-b8ff-4ebd-bb0d-cbc52a49ff61.JPG)
 
+
+---
 
 # Sign Up Process
 
