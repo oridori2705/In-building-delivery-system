@@ -6,7 +6,7 @@ In-building delivery system
 ---
 
 
-### Process
+# Process
 
 
 ![1](https://user-images.githubusercontent.com/90139306/217244498-609111a6-8bc3-452f-9b38-b9c8dea549e2.JPG)
@@ -50,4 +50,31 @@ In-building delivery system
 
 # Interrupt situation
 
+![a](https://user-images.githubusercontent.com/90139306/217253475-1d241a49-5c8f-45ee-adcc-4443073a4be7.JPG)
+
+
+![b](https://user-images.githubusercontent.com/90139306/217253480-563d2918-aef6-484b-9cb5-c4ea6ba0a282.JPG)
+
+
+![c](https://user-images.githubusercontent.com/90139306/217253484-11851960-3471-49b0-956d-48241735e18f.JPG)
+
+
+![d](https://user-images.githubusercontent.com/90139306/217253491-65a19451-b100-4e4d-bdc3-f95ad7eda636.JPG)
+
+
+![e](https://user-images.githubusercontent.com/90139306/217253496-835a3b64-2aa1-4165-9809-59df7075ebbc.JPG)
+
+
+![f](https://user-images.githubusercontent.com/90139306/217253497-4ba153be-b8ff-4ebd-bb0d-cbc52a49ff61.JPG)
+
+
+# Sign Up Process
+
+![h](https://user-images.githubusercontent.com/90139306/217253509-dac3d944-8948-4e74-9bc1-f88a7a05a8d9.JPG)
+
+
+![i](https://user-images.githubusercontent.com/90139306/217253512-cd78ed18-0bb6-44b1-aaaf-2426b061e253.JPG)
+
+
+![j](https://user-images.githubusercontent.com/90139306/217253518-5ea0d11f-d703-435f-a801-b68dff8b347f.JPG)
 
