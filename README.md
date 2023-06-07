@@ -93,7 +93,7 @@ In-building delivery system
 
 # 카트 제작 포지션 작동모습
 
-
+![slam](https://github.com/oridori2705/In-building-delivery-system/assets/90139306/18d41320-6706-4923-9ecc-975d114e4917)
 
 
 ---
