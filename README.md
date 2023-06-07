@@ -87,3 +87,22 @@ In-building delivery system
 
 ![j](https://user-images.githubusercontent.com/90139306/217253518-5ea0d11f-d703-435f-a801-b68dff8b347f.JPG)
 
+
+
+---
+
+# 카트 제작 포지션 작동모습
+
+
+
+
+---
+
+# Skills
+
+❤Android Studio / JAVA
+<br>
+🧡PHP
+<br>
+💛웹DB / phpmyadmin
+
